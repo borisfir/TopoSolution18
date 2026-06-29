@@ -1,0 +1,51 @@
+PARCEL F3 LAREA=95.654 CAREA=95.903 F42 F43 F44 F45 F46 
+                                   F47 F48 F49 F50 F51 
+                                   F52 F53 F54 F55 F56 
+                                   F57 F58 F59 F60 ;
+PARCEL F11 LAREA=319.227 CAREA=318.780 F1 F3 F4 F5 F6 
+                                       F7 F8 F9 F10 F11 
+                                       F12 F13 F14 F15 F16 
+                                       F17 F18 F19 F20 F21 
+                                       F22 F23 F24 F25 C26 
+                                       C27 C28 C29 C30 C31 
+                                       F32 F33 C34 C35 C36 
+                                       C37 C38 F39 F40 F41 
+                                       F42 F43 F44 F45 F46 
+                                       F47 F48 F49 F50 F51 
+                                       F52 F53 F54 F55 F56 
+                                       F57 F58 F59 F60 ;
+PARCEL T16 LAREA=89.350 CAREA=89.582 F58 C61 F63 F44 F45 
+                                     F46 F47 F48 F49 F50 
+                                     F51 F52 F53 F54 F55 
+                                     F56 F57 ;
+PARCEL T17 LAREA=0.300 CAREA=0.301 F42 F64 C65 C66 F60 ;
+PARCEL T18 LAREA=6.004 CAREA=6.019 F59 C66 C65 F64 F43 
+                                   F63 C61 ;
+PARCEL T19 LAREA=92.521 CAREA=92.391 F67 F7 F6 F5 F4 
+                                     F3 F1 F41 F40 F39 
+                                     C38 C37 C36 C35 C34 
+                                     F33 F32 C69 C70 C72 
+                                     C73 C74 C75 C77 F60 
+                                     F42 F78 ;
+PARCEL T20 LAREA=196.000 CAREA=195.726 F83 F84 F85 F86 F87 
+                                       F88 C89 F90 F91 F44 
+                                       F45 F46 F47 F48 F49 
+                                       F50 F51 F52 F53 F54 
+                                       F55 F56 F57 F58 C92 
+                                       F24 F23 F22 F21 F20 
+                                       F19 F18 F17 F16 F15 
+                                       F14 F13 ;
+PARCEL T21 LAREA=14.847 CAREA=14.826 F59 C77 C75 C74 C73 
+                                     C72 C70 C69 C31 C30 
+                                     C29 C28 C27 C26 F25 
+                                     C92 ;
+PARCEL T22 LAREA=4.545 CAREA=4.539 F43 F91 F93 F78 ;
+PARCEL T23 LAREA=11.314 CAREA=11.298 F83 F84 F85 F86 F87 
+                                     F88 C89 F90 F93 F67 
+                                     F8 F9 F10 F11 F12 ;
+PARCEL T24 LAREA=25.396 CAREA=25.384 C61 F63 F91 F93 F78 
+                                     F64 C65 C66 C77 C75 
+                                     C74 C73 C72 C70 C69 
+                                     C31 C30 C29 C28 C27 
+                                     C26 F25 C92 ;
+

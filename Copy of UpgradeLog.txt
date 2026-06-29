@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TopoSolution">
+</Property><Property Name="Solution File" Value="C:\NetProjects8\TopoSolution\TopoSolution.sln">
+</Property><Property Name="Date" Value="יום שלישי 13 יוני 2006">
+</Property><Property Name="Time" Value="12:50:04">
+</Property></Properties><Event ErrorLevel="1" Project="C:\NetProjects8\TopoSolution\TPlServerDB\TPlServerDB.vbproj" Source="TPlServerDB\TPlServerDB.vbproj" Description="MSB2014: The project-to-project reference with GUID {1FA96772-2370-4A47-A952-9D1D241AA105} cannot be converted because it is not listed in the file 'C:\NetProjects8\TopoSolution\TopoSolution.sln'.">
+</Event><Event ErrorLevel="0" Project="TPlServerDB" Source="TPlServerDB\TPlServerDB.vbproj" Description="Project file successfully backed up as C:\NetProjects8\TopoSolution\Backup\TPlServerDB.vbproj">
+</Event><Event ErrorLevel="0" Project="TPlServerDB" Source="TPlServerDB\TPlServerDB.vbproj.user" Description="Project user file successfully backed up as C:\NetProjects8\TopoSolution\Backup\TPlServerDB.vbproj.user">
+</Event><Event ErrorLevel="0" Project="TPlServerDB" Source="TPlServerDB\AssemblyInfo.vb" Description="File successfully backed up as C:\NetProjects8\TopoSolution\Backup\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="TPlServerDB" Source="TPlServerDB\BuildRightItem.vb" Description="File successfully backed up as C:\NetProjects8\TopoSolution\Backup\BuildRightItem.vb">
+</Event><Event ErrorLevel="0" Project="TPlServerDB" Source="TPlServerDB\DBFieldDef.vb" Description="File successfully backed up as C:\NetProjects8\TopoSolution\Backup\DBFieldDef.vb">
+</Event><Event ErrorLevel="0" Project="TPlServerDB" Source="TPlServerDB\DBFieldDefs.vb" Description="File successfully backed up as C:\NetProjects8\TopoSolution\Backup\DBFieldDefs.vb">
+</Event><Event ErrorLevel="0" Project="TPlServerDB" Source="TPlServerDB\DBIndexDef.vb" Description="File successfully backed up as C:\NetProjects8\TopoSolution\Backup\DBIndexDef.vb">
+</Event><Event ErrorLevel="0" Project="TPlServerDB" Source="TPlServerDB\DBIndexDefs.vb" Description="File successfully backed up as C:\NetProjects8\TopoSolution\Backup\DBIndexDefs.vb">
+</Event><Event ErrorLevel="0" Project="TPlServerDB" Source="TPlServerDB\DBTableDef.vb" Description="File successfully backed up as C:\NetProjects8\TopoSolution\Backup\DBTableDef.vb">
+</Event><Event ErrorLevel="0" Project="TPlServerDB" Source="TPlServerDB\Global.vb" Description="File successfully backed up as C:\NetProjects8\TopoSolution\Backup\Global.vb">
+</Event><Event ErrorLevel="0" Project="TPlServerDB" Source="TPlServerDB\ServerDB.vb" Description="File successfully backed up as C:\NetProjects8\TopoSolution\Backup\ServerDB.vb">
+</Event><Event ErrorLevel="0" Project="TPlServerDB" Source="TPlServerDB\TextResource.vb" Description="File successfully backed up as C:\NetProjects8\TopoSolution\Backup\TextResource.vb">
+</Event><Event ErrorLevel="0" Project="TPlServerDB" Source="TPlServerDB\TPlCommitteeItem.vb" Description="File successfully backed up as C:\NetProjects8\TopoSolution\Backup\TPlCommitteeItem.vb">
+</Event><Event ErrorLevel="0" Project="TPlServerDB" Source="TPlServerDB\TPlItemList.vb" Description="File successfully backed up as C:\NetProjects8\TopoSolution\Backup\TPlItemList.vb">
+</Event><Event ErrorLevel="0" Project="TPlServerDB" Source="TPlServerDB\TPlProjectDBItem.vb" Description="File successfully backed up as C:\NetProjects8\TopoSolution\Backup\TPlProjectDBItem.vb">
+</Event><Event ErrorLevel="0" Project="TPlServerDB" Source="TPlServerDB\TPlResource.vb" Description="File successfully backed up as C:\NetProjects8\TopoSolution\Backup\TPlResource.vb">
+</Event><Event ErrorLevel="0" Project="TPlServerDB" Source="TPlServerDB\TPlServerDB.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TPlServerDB" Source="TPlServerDB\TPlServerDB.vbproj" Description="Converted">
+</Event></UpgradeLog>

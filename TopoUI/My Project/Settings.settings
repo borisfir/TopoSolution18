@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="OverlayMethodIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="StraightenTolerance" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.002</Value>
+    </Setting>
+    <Setting Name="RepBamashSharedScale" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.4</Value>
+    </Setting>
+    <Setting Name="MinFDOSliverTolerance" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.01</Value>
+    </Setting>
+    <Setting Name="MaxFDOSliverTolerance" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.01</Value>
+    </Setting>
+    <Setting Name="AllSlivers" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="LastProjectCode" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="LastDetailNo" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="LastODTypeIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="UseBalance" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

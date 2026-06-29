@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{E952C4C9-605F-4728-B327-6FECAB2C3249}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>FDO</RootNamespace>
+    <AssemblyName>FDO</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>FDO.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>FDO.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>On</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release64|AnyCPU'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Release64\</OutputPath>
+    <DocumentationFile>FDO.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>
+    </NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\FDO.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>FDO.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\FDO.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>FDO.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>
+    </NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\FDO.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release64|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release64\</OutputPath>
+    <DocumentationFile>FDO.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>
+    </NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\FDO.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="accoremgd">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\accoremgd.dll</HintPath>
+    </Reference>
+    <Reference Include="acdbmgd, Version=18.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\acdbmgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AcMapDataConnectUI">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\Map\AcMapDataConnectUI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AcMapOverlayMgd">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\Map\AcMapOverlayMgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="acmgd, Version=18.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\acmgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AcMPolygonMGD">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\AcMPolygonMGD.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.Map.IM.AreaTopology">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\Map\bin\Autodesk.Map.IM.AreaTopology.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.Map.IM.AutoCADHelp">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\Map\bin\Autodesk.Map.IM.AutoCADHelp.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.Map.IM.CIP.API">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\Map\bin\Autodesk.Map.IM.CIP.API.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.Map.IM.Data.Provider.FDO.FeatureServiceWrapper, Version=21.0.15.11, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\Map\bin\Autodesk.Map.IM.Data.Provider.FDO.FeatureServiceWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.Map.Platform">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\Map\Autodesk.Map.Platform.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.Map.Platform.Utils, Version=15.0.53.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Autodesk\AutoCAD Map 3D 2012\Autodesk.Map.Platform.Utils.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ManagedInternal">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\Map\ManagedInternal.dll</HintPath>
+    </Reference>
+    <Reference Include="ManagedMapApi">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\Map\ManagedMapApi.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OSGeo.FDO">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\Map\bin\FDO\OSGeo.FDO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OSGeo.FDO.Common">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\Map\bin\FDO\OSGeo.FDO.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OSGeo.FDO.Geometry">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\Map\bin\FDO\OSGeo.FDO.Geometry.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OSGeo.MapGuide.Foundation, Version=2.3.0.5080, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\Map\bin\GisPlatform\OSGeo.MapGuide.Foundation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OSGeo.MapGuide.Geometry">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\Map\bin\GisPlatform\OSGeo.MapGuide.Geometry.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OSGeo.MapGuide.PlatformBase, Version=2.3.0.5080, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\Map\bin\GisPlatform\OSGeo.MapGuide.PlatformBase.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.VisualStudio.15.0">
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\System.Windows.Forms.VisualStudio.15.0.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Autodesk.Gis.Map" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FDO_Manager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDataConnect.Designer.vb">
+      <DependentUpon>frmDataConnect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataConnect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMPgonView.Designer.vb">
+      <DependentUpon>frmMPgonView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMPgonView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeoSpatPl.vb" />
+    <Compile Include="MPolygonExt.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ShapeExpImp.vb" />
+    <Compile Include="TplnPolygonSet.vb" />
+    <Compile Include="Util.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmDataConnect.resx">
+      <DependentUpon>frmDataConnect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMPgonView.resx">
+      <DependentUpon>frmMPgonView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DMAcadExt\DMAcadExt.vbproj">
+      <Project>{478178DA-20C5-42F8-ABD7-20ACBA45028D}</Project>
+      <Name>DMAcadExt</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\DMCommon\DMCommon.vbproj">
+      <Project>{FFAF86F5-DEAA-4175-8FC4-4A8CC3915C66}</Project>
+      <Name>DMCommon</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\TopoManager\TopoManager.vbproj">
+      <Project>{704689F5-D09A-4645-A900-1671EA8D743E}</Project>
+      <Name>TopoManager</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\UnidivNet\UnidivNet.vbproj">
+      <Project>{3713d391-d03a-4104-ad61-5d200f304e06}</Project>
+      <Name>UnidivNet</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

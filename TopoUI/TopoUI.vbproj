@@ -1,0 +1,1054 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{35121CE3-F63A-4F47-A7AC-628109D6981D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>TopoUI</RootNamespace>
+    <AssemblyName>TopoUI</AssemblyName>
+    <MyType>Windows</MyType>
+    <OptionStrict>On</OptionStrict>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <ExpressionBlendVersion>12.0.41002.1</ExpressionBlendVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TopoUI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TopoUI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release64|AnyCPU' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Release64\</OutputPath>
+    <DocumentationFile>TopoUI.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>TopoUI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>TopoUI.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release64|x64' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release64\</OutputPath>
+    <DocumentationFile>TopoUI.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="accoremgd">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\accoremgd.dll</HintPath>
+    </Reference>
+    <Reference Include="acdbmgd, Version=18.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\acdbmgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="acmgd, Version=18.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\acmgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AcMPolygonMGD">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\AcMPolygonMGD.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ManagedMapApi, Version=13.0.118.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\Map\ManagedMapApi.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ManagedMC3, Version=5.8.0.0, Culture=neutral, PublicKeyToken=99052d24520ebbb3, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\ManagedMC3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.VisualStudio.15.0">
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\System.Windows.Forms.VisualStudio.15.0.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmSelectTopo.Designer.vb">
+      <DependentUpon>frmSelectTopo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelectTopo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBamash.Designer.vb">
+      <DependentUpon>frmBamash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBamash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBamashBlockRefs.Designer.vb">
+      <DependentUpon>frmBamashBlockRefs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBamashBlockRefs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBamashM.Designer.vb">
+      <DependentUpon>frmBamashM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBamashM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalcAreas.Designer.vb">
+      <DependentUpon>frmCalcAreas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalcAreas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditLayerList.Designer.vb">
+      <DependentUpon>frmEditLayerList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditLayerList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditOwners_231219.Designer.vb">
+      <DependentUpon>frmEditOwners_231219.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditOwners_231219.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditOwners.Designer.vb">
+      <DependentUpon>frmEditOwners.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditOwners.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.vb">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.vb">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.vb">
+      <DependentUpon>Form7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEntConnected.Designer.vb">
+      <DependentUpon>frmEntConnected.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEntConnected.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEntConnectedLot.designer.vb">
+      <DependentUpon>frmEntConnectedLot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEntConnectedLot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExpro.Designer.vb">
+      <DependentUpon>frmExpro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmExpro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLotPoints.Designer.vb">
+      <DependentUpon>frmLotPoints.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLotPoints.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMsgBox.Designer.vb">
+      <DependentUpon>frmMsgBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMsgBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnaliticClip.Designer.vb">
+      <DependentUpon>frmAnaliticClip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnaliticClip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClosedPgons.Designer.vb">
+      <DependentUpon>frmClosedPgons.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmClosedPgons.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClosedPgons_180614.Designer.vb">
+      <DependentUpon>frmClosedPgons_180614.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmClosedPgons_180614.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConstUserData.Designer.vb">
+      <DependentUpon>frmConstUserData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConstUserData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditBlockRefs.Designer.vb">
+      <DependentUpon>frmEditBlockRefs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditBlockRefs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExecUtil.designer.vb">
+      <DependentUpon>frmExecUtil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmExecUtil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFDO_Overlay.Designer.vb" />
+    <Compile Include="frmFDO_Overlay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHanitControl.Designer.vb">
+      <DependentUpon>frmHanitControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHanitControl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMapThemeBase.designer.vb">
+      <DependentUpon>frmMapThemeBase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMapThemeBase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMessages.designer.vb">
+      <DependentUpon>frmMessages.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMessages.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMPgonView.Designer.vb">
+      <DependentUpon>frmMPgonView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMPgonView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMapThemeProperty.Designer.vb">
+      <DependentUpon>frmMapThemeProperty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMapThemeProperty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMPgons.Designer.vb">
+      <DependentUpon>frmMPgons.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMPgons.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLotsFromShapes.Designer.vb">
+      <DependentUpon>frmLotsFromShapes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLotsFromShapes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOwnership.Designer.vb">
+      <DependentUpon>frmOwnership.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOwnership.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPaintLanduse.designer.vb">
+      <DependentUpon>frmPaintLanduse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPaintLanduse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmParcelsFromShapes.Designer.vb" />
+    <Compile Include="frmParcelsFromShapes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPgonSetView.Designer.vb">
+      <DependentUpon>frmPgonSetView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPgonSetView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrjThemes.designer.vb">
+      <DependentUpon>frmPrjThemes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrjThemes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProjectFiles.Designer.vb">
+      <DependentUpon>frmProjectFiles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmProjectFiles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegionSet.Designer.vb">
+      <DependentUpon>frmRegionSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegionSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTopoListCleanup.designer.vb">
+      <DependentUpon>frmTopoListCleanup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTopoListCleanup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTopoStatus.Designer.vb">
+      <DependentUpon>frmTopoStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTopoStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUD_SelectPlan.Designer.vb">
+      <DependentUpon>frmUD_SelectPlan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUD_SelectPlan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTextEditor.Designer.vb">
+      <DependentUpon>frmTextEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTextEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmColorSchemeEditor.designer.vb">
+      <DependentUpon>frmColorSchemeEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmColorSchemeEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectPrjColorSet.Designer.vb">
+      <DependentUpon>frmSelectPrjColorSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelectPrjColorSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1a.Designer.vb">
+      <DependentUpon>Form1a.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1a.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDesign.Designer.vb">
+      <DependentUpon>frmDesign.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDesign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditDetails.Designer.vb">
+      <DependentUpon>frmEditDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditColorSet.Designer.vb">
+      <DependentUpon>frmEditColorSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditColorSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmApp.Designer.vb">
+      <DependentUpon>frmApp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmApp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDWGBatch.Designer.vb">
+      <DependentUpon>frmDWGBatch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDWGBatch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExp.Designer.vb">
+      <DependentUpon>frmExp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmExp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTopoActionsBase.designer.vb">
+      <DependentUpon>frmTopoActionsBase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTopoActionsBase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTopoActionsUD.designer.vb">
+      <DependentUpon>frmTopoActionsUD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTopoActionsUD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTopoActionsT.Designer.vb">
+      <DependentUpon>frmTopoActionsT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTopoActionsT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTopoActionsM.designer.vb">
+      <DependentUpon>frmTopoActionsM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTopoActionsM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTopoCleanup.designer.vb">
+      <DependentUpon>frmTopoCleanup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTopoCleanup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTopoOverlay.designer.vb">
+      <DependentUpon>frmTopoOverlay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTopoOverlay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTopoToClosedPgons.designer.vb">
+      <DependentUpon>frmTopoToClosedPgons.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTopoToClosedPgons.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTplnView.designer.vb">
+      <DependentUpon>frmTplnView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTplnView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHanitGeneral.Designer.vb">
+      <DependentUpon>frmHanitGeneral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHanitGeneral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUD_General.Designer.vb">
+      <DependentUpon>frmUD_General.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUD_General.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUD_ProjectData.Designer.vb">
+      <DependentUpon>frmUD_ProjectData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUD_ProjectData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUnidiv.Designer.vb">
+      <DependentUpon>frmUnidiv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUnidiv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ICheckTheme.vb" />
+    <Compile Include="LaunchReport.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="prjAshqelon.vb" />
+    <Compile Include="prjPrograms.vb" />
+    <Compile Include="frmReports.Designer.vb">
+      <DependentUpon>frmReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="TestExec.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TmstNetApplication.vb" />
+    <Compile Include="TopoElemDic.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmSelectTopo.resx">
+      <DependentUpon>frmSelectTopo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBamash.resx">
+      <DependentUpon>frmBamash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBamashBlockRefs.resx">
+      <DependentUpon>frmBamashBlockRefs.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBamashM.resx">
+      <DependentUpon>frmBamashM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalcAreas.resx">
+      <DependentUpon>frmCalcAreas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditLayerList.resx">
+      <DependentUpon>frmEditLayerList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditOwners_231219.resx">
+      <DependentUpon>frmEditOwners_231219.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditOwners.resx">
+      <DependentUpon>frmEditOwners.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEntConnected.resx">
+      <DependentUpon>frmEntConnected.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEntConnectedLot.resx">
+      <DependentUpon>frmEntConnectedLot.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExpro.resx">
+      <DependentUpon>frmExpro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLotPoints.resx">
+      <DependentUpon>frmLotPoints.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMsgBox.resx">
+      <DependentUpon>frmMsgBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConstUserData.resx">
+      <DependentUpon>frmConstUserData.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditBlockRefs.resx">
+      <DependentUpon>frmEditBlockRefs.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExecUtil.resx">
+      <DependentUpon>frmExecUtil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHanitControl.resx">
+      <DependentUpon>frmHanitControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMapThemeBase.resx">
+      <DependentUpon>frmMapThemeBase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMessages.resx">
+      <DependentUpon>frmMessages.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMPgonView.resx">
+      <DependentUpon>frmMPgonView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMapThemeProperty.resx">
+      <DependentUpon>frmMapThemeProperty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLotsFromShapes.resx">
+      <DependentUpon>frmLotsFromShapes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOwnership.resx">
+      <DependentUpon>frmOwnership.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPaintLanduse.resx">
+      <DependentUpon>frmPaintLanduse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPgonSetView.resx">
+      <DependentUpon>frmPgonSetView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrjThemes.resx">
+      <DependentUpon>frmPrjThemes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProjectFiles.resx">
+      <DependentUpon>frmProjectFiles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegionSet.resx">
+      <DependentUpon>frmRegionSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTopoListCleanup.resx">
+      <DependentUpon>frmTopoListCleanup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTopoStatus.resx">
+      <DependentUpon>frmTopoStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUD_SelectPlan.resx">
+      <DependentUpon>frmUD_SelectPlan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTextEditor.resx">
+      <DependentUpon>frmTextEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmColorSchemeEditor.resx">
+      <DependentUpon>frmColorSchemeEditor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectPrjColorSet.resx">
+      <DependentUpon>frmSelectPrjColorSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1a.resx">
+      <DependentUpon>Form1a.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDesign.resx">
+      <DependentUpon>frmDesign.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditDetails.resx">
+      <DependentUpon>frmEditDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReports.resx">
+      <DependentUpon>frmReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditColorSet.resx">
+      <DependentUpon>frmEditColorSet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmApp.resx">
+      <DependentUpon>frmApp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDWGBatch.resx">
+      <DependentUpon>frmDWGBatch.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExp.resx">
+      <DependentUpon>frmExp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTopoActionsBase.resx">
+      <DependentUpon>frmTopoActionsBase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTopoActionsUD.resx">
+      <DependentUpon>frmTopoActionsUD.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTopoActionsT.resx">
+      <DependentUpon>frmTopoActionsT.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTopoActionsM.resx">
+      <DependentUpon>frmTopoActionsM.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTopoCleanup.resx">
+      <DependentUpon>frmTopoCleanup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTopoOverlay.resx">
+      <DependentUpon>frmTopoOverlay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTopoToClosedPgons.resx">
+      <DependentUpon>frmTopoToClosedPgons.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTplnView.resx">
+      <DependentUpon>frmTplnView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHanitGeneral.resx">
+      <DependentUpon>frmHanitGeneral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUD_General.resx">
+      <DependentUpon>frmUD_General.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUD_ProjectData.resx">
+      <DependentUpon>frmUD_ProjectData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUnidiv.resx">
+      <DependentUpon>frmUnidiv.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestExec.resx">
+      <DependentUpon>TestExec.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AcadReport\AcadReport.vbproj">
+      <Project>{6E55DC45-47EC-41C0-A9D2-18C7998E0910}</Project>
+      <Name>AcadReport</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\BamashNet\BamashNet.vbproj">
+      <Project>{9DBD9C0C-5289-4C50-94F6-A1DC46C8E703}</Project>
+      <Name>BamashNet</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\DMAcadExt\DMAcadExt.vbproj">
+      <Project>{478178DA-20C5-42F8-ABD7-20ACBA45028D}</Project>
+      <Name>DMAcadExt</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\DMCommon\DMCommon.vbproj">
+      <Project>{FFAF86F5-DEAA-4175-8FC4-4A8CC3915C66}</Project>
+      <Name>DMCommon</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\ExcelReport\ExcelReport.vbproj">
+      <Project>{3926C500-06E0-4404-B2B5-722EF76B12DD}</Project>
+      <Name>ExcelReport</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\FDO\FDO.vbproj">
+      <Project>{E952C4C9-605F-4728-B327-6FECAB2C3249}</Project>
+      <Name>FDO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TopoManager\TopoManager.vbproj">
+      <Project>{704689F5-D09A-4645-A900-1671EA8D743E}</Project>
+      <Name>TopoManager</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\TPlServerDB\TPlServerDB.vbproj">
+      <Project>{2F475418-BC6A-4EB0-BB14-38E39BE25C57}</Project>
+      <Name>TPlServerDB</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\UnidivNet\UnidivNet.vbproj">
+      <Project>{3713D391-D03A-4104-AD61-5D200F304E06}</Project>
+      <Name>UnidivNet</Name>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowLeft16Tr.png" />
+    <None Include="Resources\saveHS.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveAllHS.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Select_14Tr.png" />
+    <None Include="Resources\Refresh16Tr.png" />
+    <None Include="Resources\XSDSchema_ImportIcon.png" />
+    <None Include="Resources\Stop_18.png" />
+    <None Include="Resources\Stop_18a.png" />
+    <None Include="Resources\Stop_18b.png" />
+    <None Include="Resources\Undo.png" />
+    <None Include="Resources\Save18Tr.png" />
+    <None Include="Resources\Unidiv.png" />
+    <None Include="Resources\Util16Tr1.png" />
+    <None Include="Resources\Util16Tr.png" />
+    <None Include="Resources\Rect16.png" />
+    <None Include="Resources\Select.png" />
+    <None Include="Resources\RefreshC.png" />
+    <None Include="Resources\RefreshA.png" />
+    <None Include="Resources\Refresh22Tr1.png" />
+    <None Include="Resources\Refresh22Tr.png" />
+    <None Include="Resources\World14.png" />
+    <None Include="Resources\SaveDWG32Tr.png" />
+    <None Include="Resources\Right25Tr.png" />
+    <None Include="Resources\Start25Tr.png" />
+    <None Include="Resources\Start20Tr.png" />
+    <None Include="Resources\Refresh32Tr.png" />
+    <None Include="Resources\Save.gif" />
+    <None Include="Resources\RightTr.PNG" />
+    <None Include="Resources\Right32Tr.png" />
+    <None Include="Resources\UpTr.png" />
+    <None Include="Resources\UncheckP32Tr.png" />
+    <None Include="Resources\Save32Tr.png" />
+    <None Include="Resources\View.png" />
+    <None Include="Resources\SavePencil.png" />
+    <None Include="Resources\Run15Tr.png" />
+    <None Include="Resources\Table19x17.png" />
+    <None Include="Resources\RemoveFilter.gif" />
+    <None Include="Resources\Save_20.png" />
+    <None Include="Resources\CloseForm.PNG" />
+    <None Include="Resources\Cleanup.PNG" />
+    <None Include="Resources\Cleanup1.PNG" />
+    <None Include="Resources\book_notebook.png" />
+    <None Include="Resources\book_notebook28.png" />
+    <None Include="Resources\book_notebook24.PNG" />
+    <None Include="Resources\book_notebook20.PNG" />
+    <None Include="Resources\Cancel16.png" />
+    <None Include="Resources\BrushTr.png" />
+    <None Include="Resources\Clear32Tr.png" />
+    <None Include="Resources\Checkbox32Tr.png" />
+    <None Include="Resources\CheckP32Tr.png" />
+    <None Include="Resources\Brush.gif" />
+    <None Include="Resources\1447_eraser.ico" />
+    <None Include="Resources\Acrobat16.png" />
+    <None Include="Resources\27.png" />
+    <None Include="Resources\65.png" />
+    <None Include="Resources\ArrowDown16.png" />
+    <None Include="Resources\ArrowLeft16InvTr.png" />
+    <None Include="Resources\ArrowDown16Tr.png" />
+    <None Include="Resources\ArrowRightDown12Tr.png" />
+    <Content Include="Resources\AStyleA.png" />
+    <None Include="Resources\Check16Tr.png" />
+    <None Include="Resources\Block1620.png" />
+    <None Include="Resources\Calc32.png" />
+    <None Include="Resources\Calc321.png" />
+    <Content Include="Resources\ColorHS.png" />
+    <None Include="Resources\CreateTopo.PNG" />
+    <None Include="Resources\Delete.png" />
+    <None Include="Resources\Erase.PNG" />
+    <None Include="Resources\Export.png" />
+    <None Include="Resources\Export16.png" />
+    <None Include="Resources\Excel.png" />
+    <None Include="Resources\FilterBySelect.JPG" />
+    <None Include="Resources\DoneTr.png" />
+    <None Include="Resources\EditInformationHS.png" />
+    <None Include="Resources\Event10.png" />
+    <None Include="Resources\Edit32Tr.png" />
+    <None Include="Resources\Exit32Tr.png" />
+    <None Include="Resources\DownTr.png" />
+    <None Include="Resources\ColorHS1.png" />
+    <None Include="Resources\Delete.gif" />
+    <None Include="Resources\Erase.gif" />
+    <None Include="Resources\Find15x15Tr.png" />
+    <None Include="Resources\Exit.gif" />
+    <None Include="Resources\Eraser15Tr.png" />
+    <None Include="Resources\Finish25Tr.png" />
+    <None Include="Resources\Exit24Tr.png" />
+    <None Include="Resources\DWG16Tr.png" />
+    <None Include="Resources\Import16Tr.png" />
+    <None Include="Resources\ColorPgonsTr.png" />
+    <None Include="Resources\GushTr.png" />
+    <None Include="Resources\Invert12.png" />
+    <None Include="Resources\Edit_UndoHL.png" />
+    <None Include="Resources\DataContainer_MoveNextHS_80.png" />
+    <None Include="Resources\DataContainer_MoveNextHS_90.png" />
+    <None Include="Resources\DataContainer_MoveNextHS_901.png" />
+    <None Include="Resources\DataContainer_MoveNextHS_801.png" />
+    <None Include="Resources\Form15.png" />
+    <None Include="Resources\ImpExcel15Tr.png" />
+    <None Include="Resources\Frame32.png" />
+    <None Include="Resources\Invert121.png" />
+    <None Include="Resources\Copy16.png" />
+    <None Include="Resources\Edit16.png" />
+    <None Include="Resources\ExcelB.png" />
+    <None Include="Resources\Frame16Tr.png" />
+    <None Include="Resources\Frame16.png" />
+    <None Include="Resources\Frame24_Hor.png" />
+    <None Include="Resources\Frame24_Ver.png" />
+    <Content Include="Resources\LayerOff.gif" />
+    <Content Include="Resources\LayerOn.gif" />
+    <None Include="Resources\Properties.PNG" />
+    <None Include="Resources\MoveNextTr.png" />
+    <None Include="Resources\MovePrevTr.png" />
+    <None Include="Resources\MoveLastTr.png" />
+    <None Include="Resources\MoveFirstTr.png" />
+    <None Include="Resources\Layers16.png" />
+    <None Include="Resources\Layers16Tr.png" />
+    <None Include="Resources\OK_B.png" />
+    <None Include="Resources\OK16.png" />
+    <None Include="Resources\Plus34Tr.png" />
+    <None Include="Resources\Plus32Tr.png" />
+    <None Include="Resources\LeftTr.PNG" />
+    <None Include="Resources\Paint20Tr.png" />
+    <None Include="Resources\New.gif" />
+    <None Include="Resources\Plus16Tr.png" />
+    <None Include="Resources\Left25Tr.png" />
+    <None Include="Resources\Properties1.png" />
+    <None Include="Resources\PrintPreviewHL.bmp" />
+    <None Include="Resources\PrintPreviewHL.PNG" />
+    <None Include="Resources\openfolderHS.png" />
+    <None Include="Resources\Multiple_Selection20.png" />
+    <None Include="Resources\Multiple_Selection20x20.png" />
+    <Content Include="Resources\QuestionMark.gif" />
+    <None Include="Resources\Validate1.png" />
+    <None Include="Resources\Validate.png" />
+    <None Include="Resources\ShowTopo.PNG" />
+    <None Include="Resources\SaveFormDesignHS.png" />
+    <None Include="Resources\ToClosedPgons.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

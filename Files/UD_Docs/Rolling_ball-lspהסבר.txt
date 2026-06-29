@@ -1,0 +1,46 @@
+
+ROLLIN
+
+
+Command: ROLLIN
+
+
+===========================================================================#
+ Choose the starting end of the first Polyline Boundary:
+ Choose the starting end of the second Polyline Boundary:
+  The total length of 1. border is: 6854.1438
+  The total length of 2. border is: 6815.2533
+ .
+
+
+ What is the increment along the boundary to check for ball fit? <50>:    
+Increment: 65.937
+
+ Ball increase factor, 0.1 - 9.0 ....... [0.5/1/2/3/4/5/6/7/8/9] <8>: 8
+   Increase factor: 8
+
+ Number of Part Angles for ang. > 180° (2-100, 1 = use standard) <1>:
+   Program uses it's standard Part Angle numbers
+
+ Show side to draw ball/centerline with <M-left-klick>: RIGHT side
+---------------------------------------------------------------------------
+=> Start time..: 23:02:58
+   Building ball angle list ... DONE  (Time: 0.265 sec.)
+   To do:    0 of 1707, Center points: 1707
+=> Elapsed time: 1 min. 12.437 secs.
+
+---------------------------------------------------------------------------
+ Do you want to remove colinear points from centerline? [Yes/No]  <Y>: n
+
+---------------------------------------------------------------------------
+ Verifying perpendicularity of Center points ... OK
+ Verifying position of perpendicular Center points ... OK
+ Verifying Centerline for self intersecting segments ... OK
+ Elapsed Time for tests: 0.391
+ drawing centerline ... DONE
+ The total length of Centerline is: 7058.5761
+
+ Do you want to GET the Circles? [Yes/No]  <N>: N
+
+
+ Do you want to GET the Circle radius lines? [Yes/No]  <N>: N

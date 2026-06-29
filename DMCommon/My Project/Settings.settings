@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="Err_1101" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">The number of Attributes in the Block - |, expecting |</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

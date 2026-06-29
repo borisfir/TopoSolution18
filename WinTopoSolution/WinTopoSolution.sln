@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WinUI", "..\WinUI\WinUI.vbproj", "{9D8CDD5D-74BA-4240-89BC-775A8A6AF9DD}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TPlServerDB", "..\TPlServerDB\TPlServerDB.vbproj", "{2F475418-BC6A-4EB0-BB14-38E39BE25C57}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DMCommon", "..\DMCommon\DMCommon.vbproj", "{FFAF86F5-DEAA-4175-8FC4-4A8CC3915C66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D8CDD5D-74BA-4240-89BC-775A8A6AF9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D8CDD5D-74BA-4240-89BC-775A8A6AF9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D8CDD5D-74BA-4240-89BC-775A8A6AF9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D8CDD5D-74BA-4240-89BC-775A8A6AF9DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F475418-BC6A-4EB0-BB14-38E39BE25C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F475418-BC6A-4EB0-BB14-38E39BE25C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F475418-BC6A-4EB0-BB14-38E39BE25C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F475418-BC6A-4EB0-BB14-38E39BE25C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFAF86F5-DEAA-4175-8FC4-4A8CC3915C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFAF86F5-DEAA-4175-8FC4-4A8CC3915C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFAF86F5-DEAA-4175-8FC4-4A8CC3915C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFAF86F5-DEAA-4175-8FC4-4A8CC3915C66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

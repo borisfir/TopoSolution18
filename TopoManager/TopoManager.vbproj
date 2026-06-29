@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{704689F5-D09A-4645-A900-1671EA8D743E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TopoManager</RootNamespace>
+    <AssemblyName>TopoManager</AssemblyName>
+    <MyType>Windows</MyType>
+    <OptionStrict>On</OptionStrict>
+    <SignAssembly>false</SignAssembly>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TopoManager.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TopoManager.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release64|AnyCPU' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Release64\</OutputPath>
+    <DocumentationFile>TopoManager.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>
+    </NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>TopoManager.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>TopoManager.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>
+    </NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release64|x64' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release64\</OutputPath>
+    <DocumentationFile>TopoManager.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>
+    </NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="accoremgd">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\accoremgd.dll</HintPath>
+    </Reference>
+    <Reference Include="acdbmgd, Version=18.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\acdbmgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="acmgd, Version=18.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\acmgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AcMPolygonMGD">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\AcMPolygonMGD.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ManagedMapApi, Version=13.0.118.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2018\Map\ManagedMapApi.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\Office15\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\PresentationCore.dll</HintPath>
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BalanceArea.vb" />
+    <Compile Include="ColorPolygon.vb" />
+    <Compile Include="Copy of NumerationPair.vb" />
+    <Compile Include="dmCleanupOptions.vb" />
+    <Compile Include="dmConnected.vb" />
+    <Compile Include="FrameJig.vb" />
+    <Compile Include="frmTopoDef.Designer.vb">
+      <DependentUpon>frmTopoDef.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTopoDef.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LuseColor\frmColorEditor.designer.vb">
+      <DependentUpon>frmColorEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LuseColor\frmColorEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LuseColor\frmSelectLanduse.Designer.vb">
+      <DependentUpon>frmSelectLanduse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LuseColor\frmSelectLanduse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LuseColor\PaintBox.vb" />
+    <Compile Include="Parameters.vb" />
+    <Compile Include="PLineJig.vb" />
+    <Compile Include="PrjDictionary.vb" />
+    <Compile Include="ProjectData.vb" />
+    <Compile Include="AcadLib.vb" />
+    <Compile Include="CheckDoubleString.vb" />
+    <Compile Include="DWGInfo.vb" />
+    <Compile Include="frmTopoView.Designer.vb">
+      <DependentUpon>frmTopoView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTopoView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeoUtilites.vb" />
+    <Compile Include="Module1.vb" />
+    <Compile Include="Common.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NumerationPair.vb" />
+    <Compile Include="ODEditor.vb" />
+    <Compile Include="OverlayReader.vb" />
+    <Compile Include="Resources.Designer.vb" />
+    <Compile Include="SimplePgon.vb" />
+    <Compile Include="SystemLinq\Linq\GroupedEnumerable.vb" />
+    <Compile Include="testBlockRef.vb" />
+    <Compile Include="TopoCreator.vb" />
+    <Compile Include="TopoDefID.vb" />
+    <Compile Include="TopoDefs.vb" />
+    <Compile Include="TopoElemDic.vb" />
+    <Compile Include="TopoModel\PointDictionary.vb" />
+    <Compile Include="TopoModel\SortedIntDictionary.vb" />
+    <Compile Include="TopoModel\tmEdge.vb" />
+    <Compile Include="TopoModel\tmEdges.vb" />
+    <Compile Include="TopoModel\tmNode.vb" />
+    <Compile Include="TopoModel\tmNodes.vb" />
+    <Compile Include="TopoModel\tmPgonIntersect.vb" />
+    <Compile Include="TopoModel\tmPolygon.vb" />
+    <Compile Include="TopoModel\tmPolygons.vb" />
+    <Compile Include="TopoModel\tmRing.vb" />
+    <Compile Include="TopoModel\tmVertex.vb" />
+    <Compile Include="TopoModel\tmVertexSet.vb" />
+    <Compile Include="TopoModel\tmVertices.vb" />
+    <Compile Include="TopoNetWork.vb" />
+    <Compile Include="TopoOverlay.vb" />
+    <Compile Include="TopoScheme\PointerJig.vb" />
+    <Compile Include="TopoScheme\TopoPgonJig.vb" />
+    <Compile Include="TopoScheme\TopoPropertyView.vb" />
+    <Compile Include="TopoScheme\tsBranch.vb" />
+    <Compile Include="TopoScheme\tsElement.vb" />
+    <Compile Include="TopoScheme\tsElements.vb" />
+    <Compile Include="TopoScheme\tsNode.vb" />
+    <Compile Include="TopoScheme\tsPgonUnion.vb" />
+    <Compile Include="TopoScheme\tsPolygon.vb" />
+    <Compile Include="TopoScheme\tsRing.vb" />
+    <Compile Include="TopoScheme\tsRingUnion.vb" />
+    <Compile Include="TopoScheme\tsTopology.vb" />
+    <Compile Include="TplanGraph\dmParameters.vb" />
+    <Compile Include="TplanGraph\DWGProjectData.vb" />
+    <Compile Include="TplanGraph\TopoErrorArray.vb" />
+    <Compile Include="TplanGraph\TplnBNPgon.vb" />
+    <Compile Include="TplanGraph\TplnBNTopo.vb" />
+    <Compile Include="TplanGraph\TplnDissolvePgon.vb" />
+    <Compile Include="TplanGraph\TplnExpro.vb" />
+    <Compile Include="TplanGraph\TplnExproType.vb" />
+    <Compile Include="TplanGraph\TplnLusePgon.vb" />
+    <Compile Include="TplanGraph\OverlayODRecord.vb" />
+    <Compile Include="TplanGraph\TopoReader.vb" />
+    <Compile Include="TplanGraph\TplanProjectData.vb" />
+    <Compile Include="TplanGraph\TplnBasicPgon.vb" />
+    <Compile Include="TplanGraph\TplnBlock.vb" />
+    <Compile Include="TplanGraph\TplnLanduse.vb" />
+    <Compile Include="TplanGraph\TplnLotTopology.vb" />
+    <Compile Include="TplanGraph\TplnLot.vb" />
+    <Compile Include="TplanGraph\TplnMerhav.vb" />
+    <Compile Include="TplanGraph\TplnMerhavOverlayPgon.vb" />
+    <Compile Include="TplanGraph\TplnOverlayGroup.vb" />
+    <Compile Include="TplanGraph\TplnOverlayODRecordset.vb" />
+    <Compile Include="TplanGraph\TplnOwner.vb" />
+    <Compile Include="TplanGraph\TplnOwnerPgon.vb" />
+    <Compile Include="TplanGraph\TplnOwnerProject.vb" />
+    <Compile Include="TplanGraph\TplnOwnershipNoteOverlayPgon.vb" />
+    <Compile Include="TplanGraph\TplnOwnerTopo.vb" />
+    <Compile Include="TplanGraph\TplnParcel.vb" />
+    <Compile Include="TplanGraph\TplnPlan.vb" />
+    <Compile Include="TplanGraph\TplnProject.vb" />
+    <Compile Include="TplanGraph\TplnOwnershipNote.vb" />
+    <Compile Include="TplanGraph\TplnRegion.vb" />
+    <Compile Include="TplanGraph\TplnTopology.vb" />
+    <Compile Include="TplanGraph\TplnTopoPgon.vb" />
+    <Compile Include="TplanGraph\TplnTopoPgons.vb" />
+    <Compile Include="TplanGraph\TplnUnionGroup.vb" />
+    <Compile Include="TplanGraph\TplnOverlayPgon.vb" />
+    <Compile Include="TplanGraph\TplnUnionPgonPair.vb" />
+    <Compile Include="TplanGraph\TplnZone.vb" />
+    <Compile Include="TplanGraph\TplnBN.vb" />
+    <Compile Include="TplanGraph\TplnBNProject.vb" />
+    <Compile Include="TplanGraph\TplnRegionSet.vb" />
+    <Compile Include="ZebraBox.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmTopoView.resx">
+      <DependentUpon>frmTopoView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DMAcadExt\DMAcadExt.vbproj">
+      <Project>{478178DA-20C5-42F8-ABD7-20ACBA45028D}</Project>
+      <Name>DMAcadExt</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\DMCommon\DMCommon.vbproj">
+      <Project>{FFAF86F5-DEAA-4175-8FC4-4A8CC3915C66}</Project>
+      <Name>DMCommon</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\TPlServerDB\TPlServerDB.vbproj">
+      <Project>{2F475418-BC6A-4EB0-BB14-38E39BE25C57}</Project>
+      <Name>TPlServerDB</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZoomCnt.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmTopoDef.resx">
+      <DependentUpon>frmTopoDef.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LuseColor\frmColorEditor.resx">
+      <DependentUpon>frmColorEditor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LuseColor\frmSelectLanduse.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelectLanduse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Exit.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowUp.gif" />
+    <None Include="Resources\ArrowDown.gif" />
+    <None Include="Resources\DissTopo.gif" />
+    <None Include="Resources\Brush.gif" />
+    <None Include="Resources\AStyle.gif" />
+    <None Include="Resources\AddTable.gif" />
+    <Content Include="Resources\ColorHS.png" />
+    <None Include="Resources\Delete.gif" />
+    <None Include="Resources\Erase.gif" />
+    <Content Include="Resources\Filter.gif" />
+    <None Include="Resources\PointName.gif" />
+    <None Include="Resources\Find15x15Tr.png" />
+    <Content Include="Resources\LayerOff.gif" />
+    <Content Include="Resources\LayerOn.gif" />
+    <None Include="Resources\LoadTopo.gif" />
+    <None Include="Resources\PaintPol.bmp" />
+    <None Include="Resources\Open.gif" />
+    <None Include="Resources\New.gif" />
+    <Content Include="Resources\QuestionMark.gif" />
+    <Content Include="Resources\RemoveFilter.gif" />
+    <None Include="Resources\Save.gif" />
+    <None Include="Resources\Undo.gif" />
+    <None Include="Resources\Views.bmp" />
+    <None Include="Resources\Select.gif" />
+    <None Include="Resources\Table.gif" />
+    <Content Include="TplanGraph\Landuse.txt" />
+    <None Include="Resources\ZoomPrev.gif" />
+    <None Include="Resources\Sort.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
